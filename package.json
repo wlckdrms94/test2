@@ -1,0 +1,22 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "nodeJS Server Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlckdrms94/test2.git"
+  },
+  "author": "wlckdrms94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlckdrms94/test2/issues"
+  },
+  "homepage": "https://github.com/wlckdrms94/test2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
