@@ -6,12 +6,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         
-        if(N <= 100000){
-            for(int i = N; i > 0; i--) {
-                System.out.println(i);
+        for(int i = N; i >= 1; i--) {
+            for(int b = N; b >= i; b--){
+                System.out.print("*");
             }
-        } else{
-            System.out.print("범위를 벗어납니다.");
+            if (i != 1){
+                System.out.println();
+            }
         }
         sc.close();
     }
