@@ -4,16 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
         
-        for(int i = N; i >= 1; i--) {
-            for(int b = N; b >= i; b--){
-                System.out.print("*");
-            }
-            if (i != 1){
-                System.out.println();
+        while (sc.hasNextInt()) {
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+            if(A > 0){
+                if(B < 10){
+                    int C = A + B;
+                    System.out.println(C);
+                }
             }
         }
+        
         sc.close();
     }
 }
